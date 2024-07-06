@@ -1,0 +1,8 @@
+opencv-python-headless
+torchvision
+matplotlib
+jupyter
+pandas
+numpy
+torch
+tqdm
