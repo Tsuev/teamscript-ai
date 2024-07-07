@@ -14,7 +14,7 @@
 
 ### 3. Запустите докер образ
 
-`docker run -d -p 8888:8888 --name teamscipt-container teamscript-app`
+`docker run -d -p 8888:8888 --name teamscipt-container teamscript-app:latest`
 
 ### 4. Получение токена для доступа к Jupyter Notebook
 
@@ -23,7 +23,7 @@
 `docker logs [container-id]`
 
 В логах найдите URL по которуму локально развернут Jupyter Notebook
-Он долден выглядет следующим образом:
+Он должен выглядет следующим образом:
 
 `http://127.0.0.1:8888/?token=tokenname12345`
 
