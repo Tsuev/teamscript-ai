@@ -19,6 +19,8 @@
 ### 4. Получение токена для доступа к Jupyter Notebook
 
 `docker logs teamscript-container`
+или
+`docker logs [container-id]`
 
 В логах найдите URL по которуму локально развернут Jupyter Notebook
 Он долден выглядет следующим образом:
